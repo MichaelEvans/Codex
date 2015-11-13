@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.michaelevans.dexter">
+
+  <application>
+    <receiver
+        android:name=".NoopBroadcastReceiver"
+        android:enabled="@bool/dexter_enabled">
+      <intent-filter>
+        <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+      </intent-filter>
+    </receiver>
+  </application>
+
+</manifest>
