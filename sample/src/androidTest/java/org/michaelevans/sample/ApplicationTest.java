@@ -1,4 +1,4 @@
-package org.michaelevans.dexverifier;
+package org.michaelevans.sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

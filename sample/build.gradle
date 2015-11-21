@@ -5,7 +5,7 @@ android {
   buildToolsVersion "23.0.1"
 
   defaultConfig {
-    applicationId "org.michaelevans.dexverifier"
+    applicationId "org.michaelevans.codex.sample"
     minSdkVersion 15
     targetSdkVersion 23
     versionCode 1
@@ -22,5 +22,5 @@ android {
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
   compile 'com.android.support:appcompat-v7:23.1.0'
-  compile project(':dexter')
+  compile project(':codex')
 }

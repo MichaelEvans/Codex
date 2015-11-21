@@ -1,4 +1,4 @@
-package org.michaelevans.dexverifier;
+package org.michaelevans.sample;
 
 import org.junit.Test;
 

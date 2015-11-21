@@ -1,4 +1,4 @@
-package org.michaelevans.dexter;
+package org.michaelevans.codex;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

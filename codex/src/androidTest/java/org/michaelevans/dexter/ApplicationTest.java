@@ -6,6 +6,7 @@ import android.content.pm.ResolveInfo;
 import android.os.Build;
 import android.test.InstrumentationTestCase;
 import java.util.List;
+import org.michaelevans.codex.NoopBroadcastReceiver;
 
 public class ApplicationTest extends InstrumentationTestCase {
 

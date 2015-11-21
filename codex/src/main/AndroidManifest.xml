@@ -3,7 +3,7 @@
 
   <application>
     <receiver
-        android:name=".NoopBroadcastReceiver"
+        android:name="org.michaelevans.codex.NoopBroadcastReceiver"
         android:enabled="@bool/dexter_enabled">
       <intent-filter>
         <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
